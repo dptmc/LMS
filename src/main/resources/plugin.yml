@@ -3,6 +3,7 @@ version: @version@-@apiversion@
 author: DartPower
 website: https://github.com/dptmc/LMS
 main: io.dpteam.LMS.Main
+api-version: 1.13
 commands:
   event:
     description: 'Staff, start an event.'

@@ -16,11 +16,11 @@ public class Main extends JavaPlugin {
 	}
 
 	public void onEnable() {
-		Bukkit.getServer().getLogger().info("[DPT.MC] LMS Eventer Enabled");
+		this.getServer().getLogger().info("[DPT.MC] LMS Eventer Enabled");
 	}
 
 	public void onDisable() {
-		Bukkit.getServer().getLogger().info("[DPT.MC] LMS Eventer Disabled");
+		this.getServer().getLogger().info("[DPT.MC] LMS Eventer Disabled");
 	}
 
 	public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args) {
