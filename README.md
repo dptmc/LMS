@@ -2,4 +2,4 @@
 
 LMS
 
-![Build](https://github.com/dptmc/DPT-PluginRepoTemplate/workflows/Build/badge.svg)
+![Build](https://github.com/dptmc/LMS/workflows/Build/badge.svg)
