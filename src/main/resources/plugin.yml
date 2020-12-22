@@ -1,6 +1,11 @@
-name: PluginName
+name: LMS
 version: @version@-@apiversion@
-description: An empty plugin for Spigot with Maven
-authors: [ DartPower, AnotherContributorName ]
-website: https://github.com/dptmc/DPT-PluginRepoTemplate
-main: io.dpteam.PluginName.Main
+author: DartPower
+website: https://github.com/dptmc/LMS
+main: io.dpteam.LMS.Main
+commands:
+  event:
+    description: 'Staff, start an event.'
+permissions:
+  lms.event:
+    description: Perm to start an event.
