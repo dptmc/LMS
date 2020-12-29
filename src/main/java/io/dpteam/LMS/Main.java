@@ -16,11 +16,12 @@ public class Main extends JavaPlugin {
 	}
 
 	public void onEnable() {
-		this.getServer().getLogger().info("[DPT.MC] LMS Eventer Enabled");
+		this.getServer().getLogger().info("[LMS Eventer] Plugin loaded and enabled");
 	}
 
+	@Override
 	public void onDisable() {
-		this.getServer().getLogger().info("[DPT.MC] LMS Eventer Disabled");
+		this.getServer().getLogger().info("[LMS Eventer] Plugin unloaded and disabled");
 	}
 
 	public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args) {
